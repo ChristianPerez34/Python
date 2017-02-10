@@ -1,0 +1,9 @@
+# Calculates meal cost rounded up to nearest dollar
+mealCost = input()
+tipPercent = input()
+taxPercent = input()
+tipPercent = mealCost*(tipPercent/100.0)
+taxPercent = mealCost*(taxPercent/100.0)
+totalCost = mealCost + tipPercent + taxPercent
+print("The total meal cost is {} dollars.".format(int(round(totalCost))))
+

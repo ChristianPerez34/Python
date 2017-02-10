@@ -1,0 +1,10 @@
+print ("Input a number")
+add = 0
+var1 = int(input())
+if (var1 == 1):
+    add = 1
+    print (add)
+else:
+    add = sum(list(range(1,var1+1)))
+    print (add)
+

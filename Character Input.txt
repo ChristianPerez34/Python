@@ -1,0 +1,8 @@
+#Asks for users age, then prints out the year they turn 100
+
+name = raw_input("Enter your name: ")
+age = int(raw_input("Enter your age: "))
+year = 2016
+grow = year - age + 100
+print ("{} will turn 100 in {}".format(name,grow))
+          

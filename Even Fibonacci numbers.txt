@@ -1,0 +1,11 @@
+first = 1
+second = 2
+even = 0
+fibonacci = 0
+while(even<4000000):
+    fibonacci = first + second
+    first = second
+    second = fibonacci
+    if(fibonacci%2 == 0):
+        even += fibonacci
+        print even

@@ -1,0 +1,15 @@
+def area(l,w):
+    area = l*w
+    return area;
+
+print ("Calculates the area of a rectangle")
+print ("Input length: ")
+length = int(input())
+print ("Input width: ")
+width = int(input())
+if(length < 1 or width < 1):
+    print("Area of rectangle can not have negative values!")
+else:
+    area = area(length, width)
+    print ("The area is: ")
+    print (area)
